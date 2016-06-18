@@ -285,7 +285,7 @@ chain_hierarchical = function(mcmc.size){
     # Propose a new value for parameter z
     new.z  = propose.par(cur.z,runif(1),delta.z)
     
-    # If the proposed value is withing the range of the parameter
+    # If the proposed value is within the range of the parameter
     if (new.z > 0) { 
       
       # The log likelihood ratio
